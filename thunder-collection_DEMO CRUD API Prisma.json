@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "DEMO CRUD API Prisma",
+    "collectionId": "76920072-0900-4eb7-81b6-f163f2dec944",
+    "dateExported": "2025-01-22T23:01:45.005Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "25ae153b-38e9-4867-86a6-d6166a7d0c23",
+            "colId": "76920072-0900-4eb7-81b6-f163f2dec944",
+            "containerId": "",
+            "name": "GET Tasks",
+            "url": "http://localhost:3000/tasks",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-01-22T22:51:42.281Z",
+            "modified": "2025-01-22T22:51:52.069Z",
+            "headers": []
+        },
+        {
+            "_id": "73bdfe7e-fb4a-48e4-bf7b-bdb451c35cc5",
+            "colId": "76920072-0900-4eb7-81b6-f163f2dec944",
+            "containerId": "",
+            "name": "POST Tasks",
+            "url": "http://localhost:3000/tasks",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-01-22T22:51:57.726Z",
+            "modified": "2025-01-22T22:52:32.008Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"prueba 2\",\n \"completed\": false \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "2e9f2fcd-e494-4389-aee7-e4a4b88609c7",
+            "colId": "76920072-0900-4eb7-81b6-f163f2dec944",
+            "containerId": "",
+            "name": "GET Tasks by ID",
+            "url": "http://localhost:3000/tasks/100",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-01-22T22:53:03.608Z",
+            "modified": "2025-01-22T22:55:46.652Z",
+            "headers": []
+        },
+        {
+            "_id": "53b7dcaf-b60a-4ebd-8799-03af432cafe4",
+            "colId": "76920072-0900-4eb7-81b6-f163f2dec944",
+            "containerId": "",
+            "name": "PATCH Tasks",
+            "url": "http://localhost:3000/tasks/1",
+            "method": "PATCH",
+            "sortNum": 30000,
+            "created": "2025-01-22T22:53:26.760Z",
+            "modified": "2025-01-22T22:54:38.573Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"prueba 22\",\n \"completed\": false \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "44b2005a-2f69-43a2-9e32-fa0575a56b33",
+            "colId": "76920072-0900-4eb7-81b6-f163f2dec944",
+            "containerId": "",
+            "name": "DELETE Tasks by ID ",
+            "url": "http://localhost:3000/tasks/2",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2025-01-22T22:55:01.577Z",
+            "modified": "2025-01-22T23:00:28.857Z",
+            "headers": []
+        }
+    ],
+    "ref": "D64x6i5Rnt6YBzjktF52qXaHQK1Ee67HAekkruKvUnf8Jl5g_8M9SAK3fxC8g9X_wGiRfkywVph_uB7YWvf_HA"
+}
