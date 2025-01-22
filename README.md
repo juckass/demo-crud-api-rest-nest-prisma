@@ -1,1 +1,1 @@
-# demo-crud-api-rest-nest-pristma
+# demo-crud-api-rest-nest-prisma
